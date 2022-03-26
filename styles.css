@@ -1,0 +1,24 @@
+body {
+  background: rgb(246, 238, 242);
+  background: linear-gradient(
+    90deg,
+    rgba(246, 238, 242, 1) 15%,
+    rgba(242, 185, 238, 0.9756945014333859) 98%
+  );
+}
+
+.social {
+  float: right;
+  width: 20%;
+  height: 20%;
+  margin-left: 2%;
+  margin-right: 3%;
+}
+
+.social:hover {
+  transform: scale(1.5);
+}
+
+.center {
+  margin-top: 30%;
+}
